@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 1 - Layout</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background-color: #eeeeee;
+        }
+
+        header {
+            background-color: #333333;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav {
+            background-color: #555555;
+            padding: 12px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        .container {
+            display: flex;
+            margin: 15px;
+            gap: 15px;
+        }
+
+        aside {
+            background-color: #dddddd;
+            width: 25%;
+            padding: 15px;
+        }
+
+        main {
+            background-color: white;
+            flex: 1;
+            padding: 20px;
+            min-height: 300px;
+        }
+
+        footer {
+            background-color: #333333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>NGUYỄN GIA PHÚ</h1>
+    </header>
+
+    <nav>
+        <a href="#">Trang chủ</a>
+        <a href="#">Giới thiệu</a>
+        <a href="#">Tin tức</a>
+        <a href="#">Liên hệ</a>
+    </nav>
+
+    <div class="container">
+
+        <aside>
+            <h3>DANH MỤC</h3>
+            <p>MSSV : 51.01.104.080 </p>
+            <p> LỚP : CNTT.A</p>
+            <p> Sinh viên K52</p>
+        </aside>
+
+        <main>
+            <h2>Bài tập thiết kế web</h2>
+            <h3>Welcome</h3>
+            <p>Hình 2.21 trang 1 sách bài tập.</p>
+        </main>
+
+    </div>
+
+    <footer>
+        Bản quyền thuộc về Nguễn Gia Phú - 2026
+    </footer>
+
+</body>
+</html>
